@@ -1,0 +1,16 @@
+[
+  {
+    "id": "openai/gpt-4o",
+    "name": "OpenAI: GPT-4o",
+    "context_length": 128000,
+    "price_per_1m_input_usd": 2.50,
+    "price_per_1m_output_usd": 10.00
+  },
+  {
+    "id": "anthropic/claude-3.5-sonnet",
+    "name": "Anthropic: Claude 3.5 Sonnet",
+    "context_length": 200000,
+    "price_per_1m_input_usd": 3.00,
+    "price_per_1m_output_usd": 15.00
+  }
+]

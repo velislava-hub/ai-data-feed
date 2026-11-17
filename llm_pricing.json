@@ -1,16 +1,122 @@
 [
   {
     "id": "openai/gpt-4o",
-    "name": "OpenAI: GPT-4o",
+    "provider": "OpenAI",
+    "name": "GPT-4o",
     "context_length": 128000,
     "price_per_1m_input_usd": 2.50,
-    "price_per_1m_output_usd": 10.00
+    "price_per_1m_output_usd": 10.00,
+    "supports_vision": true,
+    "supports_json_mode": true
+  },
+  {
+    "id": "openai/gpt-4o-mini",
+    "provider": "OpenAI",
+    "name": "GPT-4o Mini",
+    "context_length": 128000,
+    "price_per_1m_input_usd": 0.15,
+    "price_per_1m_output_usd": 0.60,
+    "supports_vision": true,
+    "supports_json_mode": true
+  },
+  {
+    "id": "openai/o3-mini",
+    "provider": "OpenAI",
+    "name": "o3-mini (Reasoning)",
+    "context_length": 200000,
+    "price_per_1m_input_usd": 1.10,
+    "price_per_1m_output_usd": 4.40,
+    "supports_vision": false,
+    "supports_json_mode": true
   },
   {
     "id": "anthropic/claude-3.5-sonnet",
-    "name": "Anthropic: Claude 3.5 Sonnet",
+    "provider": "Anthropic",
+    "name": "Claude 3.5 Sonnet",
     "context_length": 200000,
     "price_per_1m_input_usd": 3.00,
-    "price_per_1m_output_usd": 15.00
+    "price_per_1m_output_usd": 15.00,
+    "supports_vision": true,
+    "supports_json_mode": true
+  },
+  {
+    "id": "anthropic/claude-3.5-haiku",
+    "provider": "Anthropic",
+    "name": "Claude 3.5 Haiku",
+    "context_length": 200000,
+    "price_per_1m_input_usd": 0.80,
+    "price_per_1m_output_usd": 4.00,
+    "supports_vision": true,
+    "supports_json_mode": true
+  },
+  {
+    "id": "google/gemini-2.0-flash",
+    "provider": "Google",
+    "name": "Gemini 2.0 Flash",
+    "context_length": 1000000,
+    "price_per_1m_input_usd": 0.10,
+    "price_per_1m_output_usd": 0.40,
+    "supports_vision": true,
+    "supports_json_mode": true
+  },
+  {
+    "id": "google/gemini-2.5-pro",
+    "provider": "Google",
+    "name": "Gemini 2.5 Pro",
+    "context_length": 2000000,
+    "price_per_1m_input_usd": 1.25,
+    "price_per_1m_output_usd": 10.00,
+    "supports_vision": true,
+    "supports_json_mode": true
+  },
+  {
+    "id": "deepseek/deepseek-chat",
+    "provider": "DeepSeek",
+    "name": "DeepSeek V3",
+    "context_length": 64000,
+    "price_per_1m_input_usd": 0.27,
+    "price_per_1m_output_usd": 1.10,
+    "supports_vision": false,
+    "supports_json_mode": true
+  },
+  {
+    "id": "deepseek/deepseek-r1",
+    "provider": "DeepSeek",
+    "name": "DeepSeek R1 (Reasoning)",
+    "context_length": 64000,
+    "price_per_1m_input_usd": 0.55,
+    "price_per_1m_output_usd": 2.19,
+    "supports_vision": false,
+    "supports_json_mode": true
+  },
+  {
+    "id": "meta-llama/llama-3.3-70b-instruct",
+    "provider": "Meta (via Groq/Together)",
+    "name": "Llama 3.3 70B Instruct",
+    "context_length": 128000,
+    "price_per_1m_input_usd": 0.59,
+    "price_per_1m_output_usd": 0.79,
+    "supports_vision": false,
+    "supports_json_mode": true
+  },
+  {
+    "id": "mistralai/mistral-large",
+    "provider": "Mistral AI",
+    "name": "Mistral Large 2",
+    "context_length": 128000,
+    "price_per_1m_input_usd": 2.00,
+    "price_per_1m_output_usd": 6.00,
+    "supports_vision": false,
+    "supports_json_mode": true
+  },
+  {
+    "id": "x-ai/grok-2",
+    "provider": "xAI",
+    "name": "Grok 2",
+    "context_length": 131072,
+    "price_per_1m_input_usd": 2.00,
+    "price_per_1m_output_usd": 10.00,
+    "supports_vision": true,
+    "supports_json_mode": true
   }
 ]
